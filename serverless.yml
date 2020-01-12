@@ -25,3 +25,4 @@ functions:
       - http:
           path: email/send
           method: post
+          cors: true
